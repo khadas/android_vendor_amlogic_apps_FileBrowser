@@ -16,5 +16,6 @@ endif
 LOCAL_PACKAGE_NAME := FileBrowser
 LOCAL_CERTIFICATE := platform
 LOCAL_JAVA_LIBRARIES := droidlogic
+LOCAL_DEX_PREOPT := false
 
 include $(BUILD_PACKAGE)
